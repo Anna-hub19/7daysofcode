@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family= Inter:wght@500 & display=swap') ;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-family: 'Inter', sans-serif;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 80px;
+}
+
+.paragrafo-cabecalho{
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-cabecalho{
+    display: flex;
+    gap: 32px;
+    padding: 5px 350px 0px 0px;
+}
+.link{
+    text-decoration: none;
+    color: #667085;
+}
+.nav-cabecalho2{
+    display: flex;
+    gap: 25px;
+    padding: 5px 0px 0px 0px;
+    font-family: 'Inter', sans-serif;
+}
+.link-cadastro{
+    text-decoration: none;
+    background-color: #8E2424;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 250px;
+    height: 44px;
+    text-align: center;
+    padding: 9px;
+}
+.link:hover{
+    color: black;
+}
+.link-cadastro:hover{
+     background-color: #813f40;
+     
+}
+.cabecalho2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 24px;
+    margin: 96px;
+    font-family: 'Inter', sans-serif;
+}
+.paragrafo-sobrenos{
+    color: #8E2424;
+  font-size: 16px;
+}
+
+.titulo{
+    font-size: 48px;
+    color: #101828;
+}
+
+.paragrafo{
+    color: #667085;
+    font-size: 20px;
+}
+
+.section-cabecalho{
+    display: flex;
+    margin: 96px 80px;
+    gap: 32px;
+}
+
+.titulo-section{
+    color: #8E2424;
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+}
+.subtitulo-section{
+    color: #101828;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+.paragrafo-section{
+    color: #667085;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+.div-section{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.conteudo-imagem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+    margin: 64px 112px;
+}
+.div-conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+.conteudo-h2{
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    color: #8E2424;
+    width: 125px;
+    height: 28px;
+    font-size: 14px;
+    align-items: center;
+    margin: 0 0px 0px 225px;
+    padding: 5px 0px 0 0;
+}
+.conteudo-h1{
+    color: #101828;
+    font-size: 36px;
+}
+.paragrafo-conteudo{
+    color: #667085;
+    font-size: 20px;
+}
+.vagas{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    text-align:left;
+    margin: 64px 336px;
+}
+.DIV-VAGAS{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+.div-paragrafos-vagas{
+    display: flex;
+    gap: 24px;
+}
+.profisoes-vagas{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px;
+}
+.h2-vagas{
+  color: #101828;
+  font-size: 20px;
+}
+.h3-vagas{
+ color: #101828;
+ font-size: 18px;
+}
+.paragrafo-vagas{
+ color: #667085;
+ font-size: 16px;
+}
+.colaboradores{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    margin: 96px 176px;
+    padding: 64px;
+}
+.img-colaboradores{
+    width: 56px;
+}
+.paragrafo1-colaboradores{
+    color: #8E2424;
+    font-size: 14px;
+}
+.h3-colaboradores{
+    color: #101828;
+    font-size: 25px;
+}
+.h4-colaboradores{
+    color: #101828;
+    font-size: 16px;
+}
+.paragrafo2-colaboradores{
+    color: #667085;
+    font-size: 14px;
+}
+.rodape{
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  padding: 96px;
+}
+.h1-rodape{
+    color: #101828;
+    font-size: 36px;
+}
+.paragrafo1-rodape{
+    color: #667085;
+    font-size: 20px;
+}
+.paragrafo2-rodape{
+    color: #98A2B3;
+    font-size: 16px;
+}
+.input{
+    width: 360px;
+    height: 48px;
+    border: 1px #D0D5DD solid;
+    border-radius: 16px;
+    color: #667085;
+    padding: 0 0 0 16px;
+}
+.botao{
+    background-color: #8E2424;
+    color: #ffffff;
+    width: 116px;
+    height: 48px;
+    border: 1px #8E2424 solid;
+    border-radius: 8px;
+}
+.botao:hover{
+    cursor: pointer;
+}
